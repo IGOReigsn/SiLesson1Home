@@ -3,7 +3,13 @@
 //44 5 78 -> 78
 //22 3 9 -> 22
 
-int num1=22,num2=3,num3=9;
+Console.Write("Введите три числа: первое: ");
+int num1=Convert.ToInt32(Console.ReadLine());
+Console.Write("                   второе: ");
+int num2=Convert.ToInt32(Console.ReadLine());
+Console.Write("                   третье: ");
+int num3=Convert.ToInt32(Console.ReadLine());
+
 int max=num1;
 if (max<num2)
     {max=num2;}
